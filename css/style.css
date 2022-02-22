@@ -1,0 +1,314 @@
+
+@import "null.css";
+.info_1{
+    display: block;
+    margin: 0px auto;
+    max-width: 810px;
+    font-family: Lato;
+    font-style: normal; 
+}
+h1{
+ font-weight: 900;
+font-size: 46px;
+line-height: 1.30;
+color: #1E212C;
+margin-bottom: 26px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5; 
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+p,
+li{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.62;
+color: #424551;
+}
+p:nth-child(3){
+    margin-bottom: 48px;
+}
+p:last-child{
+    margin-bottom: 63px;
+}
+li{
+    margin-bottom: 4px;
+}
+p{
+    margin-bottom: 24px;
+}
+li::before{
+    content: "";
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url("../img/check.webp")0 0/16px no-repeat;
+}
+.bloquote{
+    background: url("../img/braces.webp")0 10% no-repeat; 
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+.picture{
+    margin-bottom: 60px;
+}
+.calendar{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.62;
+color: #787A80;
+background: url("../img/Calendar.webp")left center no-repeat; 
+padding: 0px 0px 0px 24px;
+display: inline-block;
+}
+.time{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #787A80;
+    background: url("../img/Clock.webp")24px center no-repeat; 
+    padding: 0px 386px 0px 50px;
+    display: inline-block;
+}
+.inline{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.sharing{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #1E212C;
+    margin-right: 12px;
+}
+.picture-small{
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+ul{
+margin-right: 0;
+}
+.bottom{
+    display: inline-block;
+    padding: 15px 70px 15px 70px;
+    border: #424551;
+    border-radius: 3px;
+    box-shadow: 1px 1px 15px 1px #787A80;
+    margin-right: 50%;
+    }
+    .bottom:hover{
+        box-shadow: 1px 1px 1px 1px #787A80;
+    }  
+    .bottom:active{
+    box-shadow: inset 1px 1px 15px 1px #787A80;
+    }
+    .background{
+         background: url("../img/2.webp")0 0 /100% no-repeat;
+    }
+    .box{
+        display: block;
+        margin: 0px auto;
+        max-width: 1290px;
+        margin-top: 5px;
+        background-color: darkgreen;
+        border-radius: 5px;
+        box-shadow:1px 1px 15px 1px #efeff1;
+        
+    }
+    .cat-1 {
+        width: 150px;
+        height: 150px;
+        background: url("../img/4.webp") 0 0 / 150px no-repeat;
+        margin: 0px 0px 0px 20px;
+     }
+     
+     .cat-2 {
+         width: 150px;
+        height: 40px;
+        background-color: yellowgreen;
+        visibility: hidden;
+        
+     }
+     .cat-1:hover + .cat-2 {
+        visibility: visible;
+     }
+     .cat-2:hover {
+        visibility: visible;
+     }
+     
+     .cat-3 {
+        width: 40px;
+        height: 315px;
+        margin-left: 110px;
+        margin-bottom: -15px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     
+     .cat-2:hover + .cat-3 {
+        visibility: visible;
+        background: url("../img/6.webp") 0 0/ 35px no-repeat;
+     }
+     .cat-3:hover {
+        visibility: visible;
+     }
+     
+     .cat-4 {
+        width: 240px;
+        height: 40px;
+        margin-left: 110px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-3:hover + .cat-4 {
+        visibility: visible;
+        background: url("../img/7.webp") 0 0/ 35px no-repeat;
+     }
+     .cat-4:hover {
+        visibility: visible;
+     }
+     
+     .cat-5 {
+        width: 50px;
+        height: 180px;
+        margin-top: -200px;
+        margin-left: 300px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-4:hover + .cat-5 {
+        visibility: visible;
+     }
+     .cat-5:hover {
+        visibility: visible;
+     }
+     
+     .cat-6 {
+        width: 170px;
+        height: 40px;
+        margin-top: -200px;
+        margin-left: 300px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-5:hover + .cat-6 {
+        visibility: visible;
+        background: url("../img/4.webp") 0 0/ 35px no-repeat;
+     }
+     
+     .cat-6:hover {
+        visibility: visible;
+     }
+     
+     .cat-7 {
+        width: 50px;
+        height: 150px;
+        margin-top: -30px;
+        margin-left: 420px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     
+     .cat-6:hover + .cat-7 {
+        visibility: visible;
+     }
+     
+     .cat-7:hover {
+        visibility: visible;
+     }
+     
+     .cat-8 {
+        width: 260px;
+        height: 40px;
+        margin-top: -30px;
+        margin-left: 420px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-7:hover + .cat-8 {
+        visibility: visible;
+        background: url("../img/7.webp") 0 0/ 35px no-repeat;
+     }
+     
+     .cat-8:hover {
+        visibility: visible;
+     }
+     
+     .cat-9 {
+        width: 55px;
+        height: 140px;
+        margin-top: -165px;
+        margin-left: 625px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     
+     .cat-8:hover + .cat-9 {
+        visibility: visible;
+     }
+     
+     .cat-9:hover {
+        visibility: visible;
+     }
+     
+     .cat-10 {
+        width: 350px;
+        height: 45px;
+        margin-top: -140px;
+        margin-left: 625px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-9:hover + .cat-10 {
+        visibility: visible;
+        
+        
+     }
+     
+     .cat-10:hover {
+        visibility: visible;
+     }
+     
+     .cat-11 {
+        width: 50px;
+        height: 50px;
+        margin-left: 925px;
+        background-color: yellowgreen;
+        visibility: hidden;
+     }
+     .cat-10:hover + .cat-11 {
+        visibility: visible;
+        background: url("../img/6.webp") 0 0/ 35px no-repeat;
+     }
+     
+     .cat-11:hover {
+        visibility: visible;
+     }
+     
+     .cat-12 {
+         visibility: hidden;
+     }
+     .cat-12 {
+         
+         background: url("../img/3.webp")0 0 no-repeat;
+         width: 800px;
+         height: 500px;
+         margin-bottom: 400px;
+         margin-left: 225px;
+     }
+     .cat-11:hover + .cat-12 {
+        visibility: visible;
+     }
+     
+     .cat-12:hover {
+        visibility: visible;
+        
+     }
+     
+    
+   
