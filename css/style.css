@@ -33,6 +33,7 @@ p:nth-child(3){
 }
 p:last-child{
     margin-bottom: 63px;
+    margin-top:24px;
 }
 li{
     margin-bottom: 4px;
@@ -69,7 +70,7 @@ display: inline-block;
     line-height: 1.62;
     color: #787A80;
     background: url("../img/Clock.webp")24px center no-repeat; 
-    padding: 0px 376px 0px 50px;
+    padding: 0px 374px 0px 50px;
     display: inline-block;
 }
 .inline{
