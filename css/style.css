@@ -88,7 +88,6 @@ display: inline-block;
 .picture-small{
     max-width: 20px;
     max-height: 20px;
-    margin-right: 12px;
     margin-left: 12px;
 }
 ul{
